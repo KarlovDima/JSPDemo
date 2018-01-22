@@ -6,9 +6,36 @@
 </head>
 <body>
 <form action="student-response.jsp">
-    First name: <input type="text" name="firstName">
+    First name:
+    <input type="text" name="firstName">
     <br/><br/>
-    Last name: <input type="text" name="lastName">
+
+    Last name:
+    <input type="text" name="lastName">
+    <br/><br/>
+
+    Country:
+    <select name="country">
+        <option value="Brazil">Brazil</option>
+        <option value="Portugal">Portugal</option>
+        <option value="Uganda">Uganda</option>
+        <option value="Russia">Russia</option>
+        <option value="USA">USA</option>
+    </select>
+    <br/><br/>
+
+    Favourite programming language:
+    <input type="radio" name="favouriteProgrammingLanguage" value="Java"> Java
+    <input type="radio" name="favouriteProgrammingLanguage" value="C#"> C#
+    <input type="radio" name="favouriteProgrammingLanguage" value="C++"> C++
+    <input type="radio" name="favouriteProgrammingLanguage" value="PHP"> PHP
+    <br/><br/>
+
+    Favourite database:
+    <input type="checkbox" name="favouriteDatabase" value="MySQL"> MySQL
+    <input type="checkbox" name="favouriteDatabase" value="H2"> H2
+    <input type="checkbox" name="favouriteDatabase" value="MongoDB"> MongoDB
+    <input type="checkbox" name="favouriteDatabase" value="MSSQL"> MSSQL
     <br/><br/>
     <input type="submit" value="Submit">
 </form>
